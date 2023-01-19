@@ -15,11 +15,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag LanShan/SuYou:6.6.6
+      run: docker build . --file Dockerfile --tag LanShan/SuYou:6.6
     - name: Login in 
       run: docker login --username ${ { secrets.DOCKER_USERNAME } } --password ${ { secrets.DOCKER_PASSWORD } }
     - name: Push Image
-      run: docker push LanShan/SuYou:6.6.6
+      run: docker push LanShan/SuYou:6.6
       
       
       
