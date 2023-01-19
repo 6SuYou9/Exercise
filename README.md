@@ -16,4 +16,6 @@ Dockerfile为制作docker镜像时使用
   
 使用my_scan.py时使用 python my_scan.py -h 查看参数及选项  
   
-使用gui.py直接运行即可，目前gui.py测试时只能在windows上显示，linux会报错，问题尚未解决。  
+使用gui.py直接运行即可，会出现gui界面  
+  
+压缩包中为可在windows下直接执行的exe文件，使用pyinstaller将gui打包为可执行文件
