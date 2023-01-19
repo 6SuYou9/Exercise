@@ -12,7 +12,8 @@ Dockerfile为制作docker镜像时使用
             "match_pattern": "[md5值]",  
             "path": "/public/static/css/style.css",  
             "uptime": "2019-05-21 19:03:43"}  
-	  
+使用时需将其与my_scan.py放到同一目录下，但若自己指定cms字典，便可无视  
+  
 使用my_scan.py时使用 python my_scan.py -h 查看参数及选项  
   
 使用gui.py直接运行即可，目前gui.py测试时只能在windows上显示，linux会报错，问题尚未解决。  
