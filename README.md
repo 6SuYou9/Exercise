@@ -20,4 +20,4 @@ Dockerfile为制作docker镜像时使用，将文件全部文件下载好后，�
   
 使用gui.py时使用python gui.py直接运行即可，会出现gui界面  
   
-压缩包中为可在windows下直接执行的exe文件，使用pyinstaller将gui打包为可执行文件
+release为可在windows下直接执行的exe文件，使用pyinstaller将gui打包为可执行文件
